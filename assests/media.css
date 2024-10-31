@@ -1,0 +1,93 @@
+
+@media screen and (max-width: 1024px) {
+    .box,
+    .certificate-box {
+      flex-basis: 40%;
+    }
+    .service-button {
+      flex-basis: 100%;
+    }
+    .skill{
+      flex-basis: 40%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .box,
+    .certificate-box {
+      flex-basis: 100%;
+    }
+   
+  
+    .home {
+      display: flex;
+      flex-direction: column;
+    }
+    .home__image {
+      order: -1;
+    }
+    
+    /* toggle nav bar  */
+    .toggle{
+      display: none;
+    }
+    
+  }
+  
+  @media screen and (max-width: 660px) 
+  {    
+      #landingpagedesignbtn{
+          white-space: wrap;
+      }
+     .footer{
+      flex-wrap:wrap ;
+      row-gap: 80px;
+       }
+       .footerrow{
+          flex-basis:100% ;
+       }
+      /* .box{
+          max-height: 200px;
+      } */
+       .footer__link,.footer__socialmedia{
+          flex-direction: column;
+         
+           
+       }
+       .footer-socialmedia,.footer-link{
+          flex-direction: row;
+          gap: 1.5rem;
+       }
+       .footer__logo{
+         
+          justify-content: center;
+       }
+  
+  }
+  
+  @media screen and (max-width: 425px) 
+  {
+    .certificate-box h2 {
+        font-size: 2rem;
+    }
+
+    .box p{
+        font-size: 1rem;
+    }
+    .box h3{
+        font-size: 1.5rem;
+    }
+     
+      /* .box{
+          max-height: 200px;
+      } */
+  }
+  
+  
+  @media screen and (max-width: 350px) 
+  {
+      /* .box{
+          max-height: 200px;
+      } */
+  }
+  

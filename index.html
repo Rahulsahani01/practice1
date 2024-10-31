@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assests/index.css" />
+    <link rel="stylesheet" href="./assests/media.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="nav__logo">
+          <img src="assests/images/navlogo.png" alt="LOGO" />
+        </div>
+        <div class="nav__link toggle">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="nav__btn toggle">
+          <button class="hover">Lets Talk.</button>
+        </div>
+      </nav>
+      <!-- <div class="dropdown-menu">
+        <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <button>Lets Talk.</button>
+
+      </div> -->
+    </header>
+    <main class="main">
+      <section class="home margin">
+        <div class="home__content padding">
+          <h1>
+            HEY, I’M <span id="home-name">John Doe</span>, A <br />Creative
+            UI/UX DESIGNER.
+          </h1>
+          <p>
+            Hello, I'm John Doe, a UI/UX designer from Pakistan. I have more
+            <br />
+            than one year of experience in designing websites and apps. I've
+            <br />
+            got certificates from Google, and I've worked on creating and <br />
+            improving many websites and apps on my own
+          </p>
+          <span><button id="about-me" class="hover">About Me.</button></span>
+        </div>
+        <div class="home__image">
+          <img src="./assests/images/boyimage.png" alt="Boy image" />
+        </div>
+      </section>
+      <section class="skill__bar">
+        <ul class="padding margin">
+          <li class="skill">
+            <span><img src="assests/images/star.png" alt="" /> </span>
+            <h2>UI/UX Designer</h2>
+          </li>
+          <li class="skill">
+            <span><img src="assests/images/star.png" alt="" /></span>
+            <h2>Social Media</h2>
+          </li>
+          <li class="skill">
+            <span><img src="assests/images/star.png" alt="" /></span>
+            <h2>Graphic Designer</h2>
+          </li>
+          <li class="skill">
+            <span><img src="assests/images/star.png" alt="" /></span>
+            <h2>Video Editing</h2>
+          </li>
+        </ul>
+      </section>
+
+      <section class="services margin">
+        <h1>Services</h1>
+        <p>Here are the services I offer to you.</p>
+        <div class="service__name">
+          <div class="service-button hover">UI/UX Designing</div>
+          <div class="service-button hover">App UI/UX</div>
+          <div class="service-button hover">Video Editing</div>
+          <div class="service-button hover">Graphic Design</div>
+          <div class="service-button hover">Social Media</div>
+          <div class="service-button hover" id="landingpagedesignbtn">
+            Landing Page Design
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio margin flexcolumn">
+        <h1>Portfolio</h1>
+        <p>Click the cards to view portfolios in the related category.</p>
+        <div class="card__container">
+          <div class="box border hover">
+            <img src="assests/images/symbolone.png" alt="" />
+            <h3>UI/UX Design</h3>
+            <p>
+              I create stunning designs for your UI/UX projects. I can handle
+              any project related to landing page design, e-commerce designs,
+              portfolios, business websites, and more according to your
+              requirements.
+            </p>
+          </div>
+          <div class="box border hover">
+            <img src="assests/images/box.png" alt="" />
+            <h3>Graphic Designer</h3>
+            <p class="para">
+              I provide amazing and professional graphic assets for your
+              project, such as social media post design, logo creation, posters,
+              thumbnails, blog graphics, product label design, and many more
+              categories, tailored to your specific requirements. Let me enhance
+              your visual identity with creative and impactful designs.
+            </p>
+          </div>
+          <div class="box border hover">
+            <img src="assests/images/Vector.png" alt="" />
+            <h3>Social Media</h3>
+            <p>
+              Quality social media post designs are essential for promoting your
+              business online. I specialize in creating engaging and
+              eye-catching posts tailored to your brand. From promotional
+              graphics to event updates, my designs aim to captivate your
+              audience and strengthen your brand identity. Let me help enhance
+              your social media presence with effective visual communication.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------------------------------------------------certificate section----------------------------------- -->
+      <section class="certificate margin flexcolumn">
+        <h1>Certificates</h1>
+        <p>Here are the certificates I have earned.</p>
+        <div class="certificate-container">
+          <div class="certificate-box border hover">
+            <img src="./assests/images/google.png" alt="" />
+            <h2>Google</h2>
+          </div>
+          <div class="certificate-box border hover">
+            <img src="./assests/images/google2.png" alt="" />
+            <h2>Google Learning</h2>
+          </div>
+          <div class="certificate-box border hover">
+            <img src="./assests/images/canva.png" alt="" />
+            <h2>Canva</h2>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer__logo flexcolumn footerrow">
+          <img src="./assests/images/navlogo.png" alt="" />
+          <div class="footer__contactus border">Contact Us</div>
+        </div>
+
+        <div class="footer__link flexrow footerrow">
+          <div class="footerbar"></div>
+          <ul class="flexcolumn footer-link">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">WORK</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">ABOUT</a></li>
+          </ul>
+        </div>
+        <div class="footer__socialmedia flexrow footerrow">
+          <div class="footerbar"></div>
+
+          <ul class="flexcolumn footer-socialmedia">
+            <li>
+              <a href="#"><img src="./assests/images/fb.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./assests/images/linkedin.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./assests/images/insta.png" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
